@@ -47,7 +47,24 @@
 		// send request to the server (your web server)
 		// If I use my web server, same-origin; use professor's, cross-origin
 
+		// These are a async methods!!
+		// Key words "Async" and "Await"
+
 		/* STEP 8: Add an event handler that listens for the onload event of the JSON file/object */
+		request.addEventListener("load", () => {
+			const iScreamInc = request.response;
+			console.log(iScreamInc);
+			// populateHeader(iScreamInc);
+			// topFlavors(iScreamInc);
+		});
+		
+		
+		// request.onload = function(){
+		// 	const iScreamInc = request.response;
+		// 	console.log(iScreamInc);
+		// 	populateHeader(iScreamInc);
+		// 	topFlavors(iScreamInc);
+		// }
 
 		/* STEP 9: Build out the populateHeader() function */
 
