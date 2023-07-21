@@ -72,6 +72,10 @@
 			const headerH1 = document.createElement("h1");
 			headerH1.textContent = jsonObj["companyName"];
 			header.appendChild(headerH1);
+
+			const headerP = document.createElement("p");
+			headerP.textContent = "Head Office: " + jsonObj["headOffice"];
+			header.appendChild(headerP);
 		}
 
 		/* STEP 10a: Assemble the showTopFlavors() function */
