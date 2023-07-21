@@ -33,12 +33,19 @@
 		const request = new XMLHttpRequest(); 
 		// constructor function: XMLHttpRequest()
 		
-
 		/* STEP 5: Open a new request using the open() method */
+		request.open('GET',requestURL);
+		// open a channel between client and server
 
 		/* STEP 6: Set JavaScript to accept JSON from the server */
+		request.responseType = "json";
+		// Define request type, eg. json, plain text. in this case, Request type is Json.
+		// Server send me in json format syntax
 
 		/* STEP 7: Send the request with the send() method */
+		request.send();
+		// send request to the server (your web server)
+		// If I use my web server, same-origin; use professor's, cross-origin
 
 		/* STEP 8: Add an event handler that listens for the onload event of the JSON file/object */
 
