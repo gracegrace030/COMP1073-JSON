@@ -12,7 +12,7 @@
 	<!-- STEP 1: Build out a HEADER and a SECTION element -->
 	
 	<header>
-		
+
 	</header>
 
 	<section>
@@ -58,7 +58,7 @@
 			// topFlavors(iScreamInc);
 		});
 		
-		
+		// Another way:
 		// request.onload = function(){
 		// 	const iScreamInc = request.response;
 		// 	console.log(iScreamInc);
@@ -67,6 +67,12 @@
 		// }
 
 		/* STEP 9: Build out the populateHeader() function */
+
+		function populateHeader(jsonObj){
+			const headerH1 = document.createElement("h1");
+			headerH1.textContent = jsonObj["companyName"];
+			header.appendChild(headerH1);
+		}
 
 		/* STEP 10a: Assemble the showTopFlavors() function */
 
