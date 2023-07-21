@@ -10,17 +10,29 @@
 
 <body>
 	<!-- STEP 1: Build out a HEADER and a SECTION element -->
+	
 	<header>
-		<h1>JSON Class Demo</h1>
-		<p>Very useful class</p>
+		
 	</header>
+
+	<section>
+
+	</section>
 
 	<script>
 		/* STEP 2: Bind the HEADER and the SECTION elements above to variables */
+		const header = document.querySelector("header");
+		const section = document.querySelector("section");
 
 		/* STEP 3: Store the URL of a JSON file in a variable */
+		const requestURL = "https://gracegrace030.github.io/COMP1073-JSON/js/i-scream.json";
+		const profJsonURL = "https://dario-hesami.github.io/test2/js/i-scream.json";
 
 		/* STEP 4: Create a new XHR object */
+		
+		const request = new XMLHttpRequest(); 
+		// constructor function: XMLHttpRequest()
+		
 
 		/* STEP 5: Open a new request using the open() method */
 
