@@ -36,6 +36,28 @@
         "candy sprinkles"
       ],
       "image": "strawberry-sprinkle.svg"
+    },
+    {
+      "name": "Birthday Pitaschio",
+      "calories": 600,
+      "type": "ice cream",
+      "ingredients": [
+        "pitaschio",
+        "sprinkles candy",
+        "cutton candy"
+      ],
+      "image": "ice-cream-xtra1.svg"
+    },
+    {
+      "name": "Iceberg Cookies",
+      "calories": 500,
+      "type": "ice cream",
+      "ingredients": [
+        "white chocolate",
+        "cookie chips",
+        "condensed milk"
+      ],
+      "image": "ice-cream-xtra2.svg"
     }
   ]
 }
